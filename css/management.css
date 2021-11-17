@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    list-style-type: none;
+}
+
+.radio-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: fit-content;
+    height: 70px;
+    border: 1px solid #cc6600;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.radio-container .add-radio, .update-radio, .delete-radio, .add-pub-radio, .add-cate-radio, .add-shop-radio, .statistic{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.radio-container .add-radio .radio-change-function{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.radio-container .add-pub-radio .radio-change-function{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.radio-container .add-cate-radio .radio-change-function{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.radio-container .add-shop-radio .radio-change-function{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.radio-container .add-radio .radio-change-function{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.radio-container .update-radio .radio-change-function{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.radio-container .delete-radio .radio-change-function{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.radio-container .statistic .radio-change-function{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+.radio-container .add-radio, .add-pub-radio, .add-cate-radio, .add-shop-radio{
+    text-align: center;
+    cursor: pointer;
+}
+
+.radio-container .update-radio{
+    text-align: center;
+    cursor: pointer;
+}
+
+.radio-container .delete-radio{
+    text-align: center;
+    cursor: pointer;
+}
+
+.radio-container .statistic{
+    text-align: center;
+    cursor: pointer;
+}
+
+.radio-container .add-radio,  .radio-title{
+    color: #cc6600;
+}
+
+.radio-container .update-radio .radio-title{
+    color: #cc6600;
+}
+
+.radio-container .delete-radio .radio-title{
+    color: #cc6600;
+}
+
+.radio-container .statistic .radio-title{
+    color: #cc6600;
+}
+
+#side{
+    display: flex;
+}
+
+/* add function */
+
+.add{
+    
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.add .list-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.add .list-info .item-info{
+    margin-bottom: 20px;
+}
+
+.add .list-info .item-info .input-info{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.add .sm-btn{
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #cc6600;
+    cursor: pointer;
+}
+
+/* add cate */
+
+.add-cate{
+    display: none;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.add-cate .list-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.add-cate .list-info .item-info{
+    margin-bottom: 20px;
+}
+
+.add-cate .list-info .item-info .input-info{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.add-cate .sm-btn{
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #cc6600;
+    cursor: pointer;
+}
+
+/* add pub */
+
+.add-pub{
+    display: none;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.add-pub .list-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.add-pub .list-info .item-info{
+    margin-bottom: 20px;
+}
+
+.add-pub .list-info .item-info .input-info{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.add-pub .sm-btn{
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #cc6600;
+    cursor: pointer;
+}
+
+/* add shop */
+
+.add-shop{
+    display: none;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.add-shop .list-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.add-shop .list-info .item-info{
+    margin-bottom: 20px;
+}
+
+.add-shop .list-info .item-info .input-info{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.add-shop .sm-btn{
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #cc6600;
+    cursor: pointer;
+}
+
+/* update function */
+
+.update{
+    display: none;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.update .list-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.update .list-info .item-info{
+    margin-bottom: 20px;
+}
+
+.update .list-info .item-info .input-info{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.update .sm-btn{
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #cc6600;
+    cursor: pointer;
+}
+
+/* delete function */
+
+.delete{
+    display: none;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.delete .list-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.delete .list-info .item-info{
+    margin-bottom: 20px;
+}
+
+.delete .list-info .item-info .input-info{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.delete .sm-btn{
+    width: 100px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #cc6600;
+    cursor: pointer;
+}
+
+/* statistic function */
+
+.sta{
+    display: none;
+}

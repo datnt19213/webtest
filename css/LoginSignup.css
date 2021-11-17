@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    list-style-type: none;
+}
+
+#border-radio{
+    position: relative;
+    border: 1px solid #cc6600;
+    width: 700px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    justify-content: right;
+    padding: 10px 50px 10px 50px;
+    justify-content: space-between;
+    border-radius: 10px;
+    display: flex;
+}
+
+#change-form{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#signup{
+    display: none;
+}
+
+.lg-rd, .su-rd .cont{
+    text-align: center;
+}
+
+.lg-su-form .lg-rd, .su-rd{
+    color: #cc6600;
+}
+
+.lg-su-form{
+    background-color: #fff;
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.lg-su-form .login{
+    margin: 0px 50px 0px 50px;
+}
+
+.lg-su-form .login .su-list .su-info{
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.lg-su-form .login .su-list .su-info .su-input{
+    width: 700px;
+    height: 30px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0.1px gray;
+}
+
+.lg-su-form .login .su-list .su-info .checkbtn{
+    width: 15px;
+    height: 15px;
+    margin-left: 25px;
+}
+
+.lg-su-form .login .su-list .su-info .txt{
+    text-decoration: none;
+}
+
+.lg-su-form .login .su-list .btn-log{
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #cc6600;
+    cursor: pointer;
+}
+
+.lg-su-form .signup{
+    margin: 50px;
+}
+
+.lg-su-form .signup .lg-list{
+    margin-top: 50px;
+}
+
+.lg-su-form .signup .lg-list .lg-info{
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.lg-su-form .signup .lg-list .lg-info .lg-input{
+    margin-top: 15px;
+    width: 700px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 0.1px gray;
+}
+
+.lg-su-form .signup .lg-list .lg-info .lg-input-radio{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+.lg-su-form .signup .lg-list .su-btn{
+    width: 100px;
+    height: 35px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #cc6600;
+    cursor: pointer;
+}
+
+.lg-su-form .signup .lg-list .lg-info .checkbtn{
+    width: 15px;
+    height: 15px;
+    margin-left: 25px;
+}
+
+@media only screen and (max-width: 1050px){
+    .lg-su-form{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    *{
+        font-size: 18px;
+    }
+    .lg-su-form .login{
+        margin: 0px 2px 0px 2px;
+    }
+
+    .lg-su-form .login .su-list .su-info .su-input{
+        width: 90%;
+    }
+    .lg-su-form .login .su-list .su-info{
+        font-size: 18px;
+    }
+}
