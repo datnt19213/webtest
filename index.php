@@ -113,7 +113,7 @@
                 if($page=="addcate")
                 {
                     include_once("Management.php");
-                    include_once("addcate.php");
+                    include_one("addcate.php");
                 }
                 if($page=="addshop")
                 {
@@ -133,7 +133,7 @@
                 if($page=="addpub")
                 {
                     include_once("Management.php");
-                    include_once("addshop.php");
+                    include_once("addpub.php");
                 }
                 
             }
