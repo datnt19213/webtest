@@ -44,8 +44,9 @@
                 <p class="radio-title">Add Shop</p></a>
             </div>
             <div class="statistic">
+                <a href="?page=addpub">
                 <input type="submit" name="radio" id="" onclick="choice(6)" class="radio-change-function">
-                <p class="radio-title">Add Publisher</p>
+                <p class="radio-title">Add Publisher</p></a>
             </div>
         </div>
     </div>
