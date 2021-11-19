@@ -31,7 +31,7 @@
             } else {
                 $result2 = pg_query($con, "SELECT * FROM public.category WHERE cateId='$cid'") or die . $con;;
                 if (pg_num_rows($result2) == 0) {
-                    $sqlstring2 = "INSERT INTO public.category(pubId, pubName) VALUES ('$pid', '$pname')";
+                    $sqlstring2 = "INSERT INTO public.category(cateId, cateName) VALUES ('$cid', '$cname')";
                     pg_query($con, $sqlstring2);
                     echo '<meta http-equiv="refresh" content="0;URL=?page=management.php"/>';
                 } else {
